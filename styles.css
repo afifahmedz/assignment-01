@@ -7,12 +7,7 @@ nav{
     
 
 }
-/* nav div{
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
 
-} */
 .common-margin{
     max-width: 1600px;
     margin: auto;
@@ -48,3 +43,23 @@ nav a {
     color: rgb(235, 235, 235);
     margin-top: 9px;
 }
+.big-section-banner{
+    background-image:url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    margin-top: 20px;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+}
+main section div h1, p{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+   
+
