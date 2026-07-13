@@ -28,12 +28,13 @@ nav a {
 }
 /* common button sob khane use korar jonne */
 .cmn-btn{
-    padding: 15px 30px;
+    padding: 12px 50px;
+    border: none;
     color: white;
     background-color:#1D4ED8 ;
     font-weight: 700;
     font-size: large;
-    border-radius: 4px;
+    border-radius: 8px;
     margin-top: 10px;
     cursor: pointer;   
 }
@@ -124,6 +125,28 @@ nav a {
     text-align: center;
     font-family: 'Inter';
 }
+.p-over-dollar-one{
+    margin-bottom: 35px;
+    color: #888888;
+    font-weight: 600;
+}
+.p-over-dollar-two{
+    margin-bottom: 35px;
+    color: #93C5FD;
+     font-weight: 600;
+}
+.p-over-dollar-three{
+    margin-bottom: 35px;
+     color: #888888;
+      font-weight: 600;
+}
+.dollar{
+    margin-bottom:8px ;
+    font-size: 3.6rem;
+}
+.per-person{
+    margin-bottom: 15px;
+}
 .container-of-four{
     margin:auto !important;
     gap: 20px;
@@ -159,6 +182,11 @@ section div div p,h3 {
 .li-text-non-pro{
     color: #333333;
      font-family: 'Inter';
+      margin-top: 10px; ;
+}
+.li-text-pro{
+    margin-top: 10px; ;
+    color: rgba(255, 255, 255, 0.8);
 }
 .standard-card{
     background-color: white;
@@ -181,22 +209,42 @@ div div ul{
     flex-direction: column;
     gap: 12px;
 }
-.btn-2{
+div div ul li a {
+    color:#2563eb ;
+}
+.btn-left{
     background-color: white;
     color: #2563eb;
     border: 1px solid #2563eb;
     padding: 15px 50px;
     font-weight: 700;
     font-size: large;
-    border-radius: 4px;
+    border-radius: 8px;
     margin-top: 10px;
     cursor: pointer;   
     
 }
-.btn-2:hover{
+.btn-right{
+    background-color: white;
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+    padding: 15px 50px;
+    font-weight: 700;
+    font-size: large;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;   
+    
+}
+.btn-left:hover{
+     background-color: rgb(228, 228, 228);
+    color: #225edf;
+    }
+.btn-right:hover{
      background-color: rgb(228, 228, 228);
     color: #225edf;
 }
+
 .pro-btn{
     background-color: #2563EB;
     color: #ffffff;
