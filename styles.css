@@ -88,9 +88,16 @@ nav a {
     margin: 450px auto 0px auto ; 
     padding: 16px 41px 16px !important;
   }
-.meet-the-speakers-h1{
+.meet-the-speakers-h1 {
     text-align: center;
     font-size: 48px;
+    font-family: 'Inter';
+
+
+}
+.p-over-cards{
+    text-align: center;
+    font-family: 'Inter';
 }
 .container-of-four{
     margin:auto !important;
@@ -126,15 +133,38 @@ section div div p,h3 {
 }
 .li-text-non-pro{
     color: #333333;
+     font-family: 'Inter';
 }
 .standard-card{
     background-color: white;
+     font-family: 'Inter';
 
 }
 .pro-card{
     background-color: #0D1B2A;
     color: white !important; 
+     font-family: 'Inter';
 }
 .team-card{
     background-color: #F8F9FB;
+     font-family: 'Inter';
 }
+.btn-2{
+    background-color: white;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+    padding: 15px 10px;
+    font-weight: 700;
+    font-size: large;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;   
+    
+}
+ul li a{
+    text-decoration: none;
+}
+ul li::marker {
+  color: #60a5fa; 
+}
+
