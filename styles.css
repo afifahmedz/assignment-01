@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+/* nav div{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+} */
+.common-margin{
+    max-width: 1600px;
+    margin: auto;
+}
+.nav-mid-text{
+    font-family: "Arimo", sans-serif;
+    color: rgb(235, 235, 235);
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px; 
+}
+nav a {
+    text-decoration: none;
+    color: #575757;
+}
+/* common button sob khane use korar jonne */
+.cmn-btn{
+    padding: 15px 10px;
+    color: white;
+    background-color:#1D4ED8 ;
+    font-weight: 700;
+    font-size: large;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+.cmn-btn:hover{
+    background-color: #1a48c7;
+    color: rgb(235, 235, 235);
+    margin-top: 9px;
+}
