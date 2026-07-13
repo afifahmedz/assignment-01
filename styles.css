@@ -207,3 +207,261 @@ footer section div a{
     color: #ffffff;
     text-decoration: none;
 }
+/* totally ai generated section */
+/* DevConf 2026 Schedule Styling */
+:root {
+  --primary-blue: #2563eb;
+  --primary-hover: #1d4ed8;
+  --ai-purple: #8b5cf6;
+  --text-main: #1f2937;
+  --text-muted: #6b7280;
+  --border-color: #e5e7eb;
+  --bg-light: #f9fafb;
+}
+
+.schedule-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--text-main);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  margin-bottom: 12px;
+}
+
+.section-header p {
+  color: var(--text-muted);
+  font-size: 1.125rem;
+}
+
+/* Day Tabs - Hybrid Pill/Minimalist Design */
+.day-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.tab-btn {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.tab-btn span {
+  font-size: 0.85rem;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.tab-btn:hover {
+  border-color: var(--primary-blue);
+  color: var(--primary-blue);
+}
+
+.tab-btn.active {
+  background-color: var(--primary-blue);
+  border-color: var(--primary-blue);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+/* Schedule Desktop Grid Base */
+.schedule-grid {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+/* Grid Row Layouts */
+.grid-row {
+  display: grid;
+  grid-template-columns: 180px repeat(4, 1fr);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.grid-row:last-child {
+  border-bottom: none;
+}
+
+/* Column Header Styles */
+.track-headers-row {
+  background-color: var(--bg-light);
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.time-col-header, .track-col-header {
+  padding: 16px;
+  font-size: 0.95rem;
+  color: var(--text-main);
+}
+
+.time-col-header {
+  text-align: left;
+  padding-left: 24px;
+}
+
+/* Highlight the universe-key track (AI/ML) */
+.track-col-header.highlight-track {
+  color: var(--ai-purple);
+  background-color: rgba(139, 92, 246, 0.05);
+}
+
+/* Time Column Styling */
+.time-col {
+  padding: 24px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  background-color: var(--bg-light);
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+}
+
+/* Unified Blocks (Keynote, Lunch) */
+.unified-block {
+  background-color: #ffffff;
+}
+
+.event-col-full {
+  grid-column: span 4;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.event-col-full h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 8px 0 4px 0;
+}
+
+.speaker-tag {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.break-block {
+  background-color: rgba(37, 99, 235, 0.02);
+}
+
+.break-block h3 {
+  color: var(--primary-blue);
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.keynote-badge {
+  background-color: rgba(37, 99, 235, 0.1);
+  color: var(--primary-blue);
+}
+
+.break-badge {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: #10b981;
+}
+
+/* Parallel Track Cards */
+.track-card {
+  padding: 16px;
+  border-right: 1px solid var(--border-color);
+  background-color: #ffffff;
+  transition: background-color 0.2s ease;
+}
+
+.track-card:last-child {
+  border-right: none;
+}
+
+.track-card:hover {
+  background-color: var(--bg-light);
+}
+
+.card-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.track-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.track-card h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: auto; /* Pushes speaker to the bottom */
+  padding-bottom: 12px;
+}
+
+.speaker {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* Specific Treatment for Premium AI/ML Track */
+.track-card.ai-track {
+  background-color: rgba(139, 92, 246, 0.02);
+}
+
+.track-card.ai-track:hover {
+  background-color: rgba(139, 92, 246, 0.05);
+}
+
+.track-card.ai-track .track-label {
+  color: var(--ai-purple);
+}
+/* aro pore */
+/* Hide day content by default, show when active */
+.day-content {
+  display: none;
+}
+.day-content.active {
+  display: block;
+}
