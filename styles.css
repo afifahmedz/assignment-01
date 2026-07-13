@@ -42,16 +42,16 @@ nav a {
     background-color: #1a48c7;
     color: rgb(235, 235, 235);
     margin-top: 9px;
+    /* hover korle puro site nore jay */
 }
 .big-section-banner{
     background-image:url(./assets/banner.jpg);
     background-repeat: no-repeat;
-    
     background-size: cover;
     margin-top: 20px;
     background-position: center;
     width: 100%;
-    min-height: 100vh;
+    min-height: 85vh;
     padding: 20px;
 }
 main section div h1, p{
@@ -61,5 +61,23 @@ main section div h1, p{
     justify-content: center;
     
 }
-   
+.h1-style{
+    font-size: 64px;
+    padding: 100px 0px 20px 0px; ;
+    font-family: "Inter", sans-serif;
+}
+ .p-style{
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    text-align: center;
+ }  
+ .btn-align{
+     /* display: flex !important;
+    align-items: center !important;
+    justify-content: center !important; */
+    display: block;
+    margin: 450px auto 0px auto ; 
+    
+ } 
 
