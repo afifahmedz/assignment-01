@@ -35,15 +35,15 @@ nav a {
     font-size: large;
     border-radius: 4px;
     margin-top: 10px;
-    cursor: pointer;
-    
+    cursor: pointer;   
+}
+.disc-removal-right-button{
+    list-style: none;
 }
 .cmn-btn:hover{
     background-color: #1a48c7;
     color: rgb(235, 235, 235);
-    margin-top: 10px;
-    padding: 16px 12px;
-    /* hover korle puro site nore jay */
+    
 }
 .big-section-banner{
     background-image:linear-gradient( 
@@ -60,28 +60,23 @@ nav a {
     min-height: 87vh;
     padding: 20px;
   
-main section div h1, p{
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
 .h1-style{
+    color: white;
+    display: block;
+    text-align: center;
     font-size: 64px;
     padding: 100px 0px 20px 0px; ;
     font-family: "Inter", sans-serif;
 }
  .p-style{
+    color: white;
     font-size: 24px;
     font-family: "Inter", sans-serif;
     font-weight: 300;
     text-align: center;
  }  
  .btn-align-size{
-     /* display: flex !important;
-    align-items: center !important;
-    justify-content: center !important; */
+
     display: block;
     margin: 450px auto 0px auto ; 
     padding: 15px 40px 15px !important;
